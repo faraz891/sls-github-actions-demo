@@ -41,7 +41,7 @@ cognitoUserPoolDoamin:
   Type: AWS::Cognito::UserPoolDomain
   Properties:
     UserPoolId: !Ref cognitoUserPool
-    Domain: mynotesystemops-${self:provider.stage}
+    Domain: notesystemops
 
 # Application parameters
 userPoolArnParam:
